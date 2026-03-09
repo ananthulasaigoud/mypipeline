@@ -17,6 +17,8 @@ jobs:
 
       - name: Show date
         run: date
+      - name: Show disk usage
+        run: df -h
 
       - name: Show files
         run: ls -la
